@@ -1,0 +1,27 @@
+/* ------------------- */
+/* Reset Melhorado     */
+/* ------------------- */
+
+/* 1. Melhorar o box-sizing */
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+/* 2. Remover margens e paddings padrão */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* 3. Ajustar corpo */
+html {
+	height: 100%;
+}
+
+/* 6. Remover estilos padrão de listas */
+ul,
+ol {
+	list-style: none;
+}
