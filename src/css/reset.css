@@ -2,6 +2,9 @@
 /* Reset Melhorado     */
 /* ------------------- */
 
+/* DM SANS */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
 /* 1. Melhorar o box-sizing */
 *,
 *::before,
@@ -25,3 +28,21 @@ ul,
 ol {
 	list-style: none;
 }
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+button {
+	border: none;
+	cursor: pointer;
+}
+
+body {
+	line-height: 1;
+	background: #000;
+	font-family: var(--font-dm-sans);
+}
+
+
